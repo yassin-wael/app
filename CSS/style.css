@@ -33,7 +33,7 @@ body
 .logo
 {
     width: 9%;
-    margin: -8px 10%;
+    margin: -4px 10%;
     float: left;
 }
 .nav
@@ -57,7 +57,7 @@ body
     /* border: 1px solid #fff; */
     border-radius: 12px;
     transition:.4s;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     position: relative;
 }

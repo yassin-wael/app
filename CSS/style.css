@@ -14,7 +14,7 @@ body
 .container
 {
     width: 80%;
-    background-color: rgb(82, 82, 82);
+    background-color: rgb(230, 230, 230);
     margin: auto;
 }
 .clearfix
@@ -164,7 +164,7 @@ body
 }
 .about-title
 {
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 35px;
     margin: 56px;
 }
@@ -178,16 +178,46 @@ body
     display: block;
     margin: 10px auto;
 }
-
-/* .about .line
+.parent
 {
-    width: 100px;
-    height: 4px;
-    background: #008cff;
-    margin: -25px auto;
-} */
+    width: 100%;
+    /* background-color: #000; */
+}
+.about .item1, .item2,.item3
+{
+    width: 30%;
+    padding: 23px 0px;
+    border: 2px solid #323232;
+    border-radius: 15px;
+    float: left;
+    position: relative;
+}
 .cir 
 {
-    font-size: 14px;
-    color: #008cff;
+    font-size: 40px;
+    margin: 10px;
+    color: #2ea1ff;
+}
+.item h3 
+{
+    margin: 10px 0px;
+    font-size: 22px;
+}
+.item p
+{
+    margin-bottom: 15px;
+}
+.item a
+{
+    display: block;
+    width: 40%;
+    color: #2ea1ff;
+    border: 1px solid #2ea1ff;
+    border-radius: 20px;
+    padding: 6px 15px;
+    margin: 17px auto;
+}
+.item2
+{
+    margin: 0px 5%;
 }

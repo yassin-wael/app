@@ -97,6 +97,7 @@ body
     background-image: url(../images/wallhaven-nr2p17.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: top;
     z-index: 99;
     text-align: center;
@@ -105,16 +106,16 @@ body
 {
 
     position: absolute;
-    top: 35%;
-    left: 20%;
-    /* background-color: #4599ddab; */
-    width: 60%;
     height: 300px;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
 }
 .home .home-title-holder .home-title
 {
     color: #ffff;
-    font-size: 50px;
+    font-size: 45px;
     text-transform: uppercase;
 }
 .home .home-title-holder p
@@ -153,9 +154,3 @@ body
 }
 /* END OF NAV */
 /* START OF BANNER SECTION*/    
-h3
-{
-    color: red
-    text-decoration: underline;
-    font-style: italic; 
-}

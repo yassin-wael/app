@@ -153,4 +153,41 @@ body
     background: #fff;
 }
 /* END OF NAV */
-/* START OF BANNER SECTION*/    
+/* START OF BANNER SECTION*/   
+ /*START OF ABOUT SECTION  */
+.about
+{
+    text-align: center;
+    height: 91vh;
+    width: 100%;
+    padding: 80px 0px;
+}
+.about-title
+{
+    color: #fff;
+    font-size: 35px;
+    margin: 56px;
+}
+.about-title::after
+{
+    content: "";
+    width: 100px;
+    height: 4px;
+    background: #4598dd;
+    position: relative;
+    display: block;
+    margin: 10px auto;
+}
+
+/* .about .line
+{
+    width: 100px;
+    height: 4px;
+    background: #008cff;
+    margin: -25px auto;
+} */
+.cir 
+{
+    font-size: 14px;
+    color: #008cff;
+}

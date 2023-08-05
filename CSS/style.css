@@ -191,6 +191,10 @@ body
     border-radius: 15px;
     float: left;
     position: relative;
+    overflow: hidden;
+}
+.item {
+    transition: 0.5s;
 }
 .cir 
 {
@@ -220,4 +224,25 @@ body
 .item2
 {
     margin: 0px 5%;
+}
+.item::after
+{
+    visibility: hidden;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top:0;
+    left: 0;
+    opacity: 0;
+    background-color: #333;
+}
+.item:hover::after
+{
+    visibility: visible;
+    width: 100%;
+    opacity: .5;
+    height: 100%;
+    transition: 0.5s;
+    border-radius: 15px;
 }

@@ -5,7 +5,6 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    transition: .4s;
 }
 body
 {
@@ -192,9 +191,11 @@ body
     float: left;
     position: relative;
     overflow: hidden;
+    z-index: 94;
 }
 .item {
     transition: 0.5s;
+    background-color: #fff;
 }
 .cir 
 {
@@ -225,7 +226,11 @@ body
 {
     margin: 0px 5%;
 }
-.item::after
+.ita
+{
+    position: relative;
+}
+.ita::after
 {
     visibility: hidden;
     position: absolute;
@@ -236,13 +241,20 @@ body
     left: 0;
     opacity: 0;
     background-color: #333;
+    transition: .4s;
 }
-.item:hover::after
+.ita:hover::after
 {
     visibility: visible;
     width: 100%;
-    opacity: .5;
     height: 100%;
     transition: 0.5s;
     border-radius: 15px;
+    opacity: 1;
+    z-index: -1;
+}
+.item:hover{
+    color: #fff;
+    transition:.3s;
+    opacity: 1;
 }

@@ -268,7 +268,7 @@ body
     color: #000;
 }
 /* FEAT ITEMS */
-.feat-item1, .feat-item2, .feat-item3
+.feat-item1, .feat-item2, .feat-item3, .feat-item4
 {
     display: inline-block;
     position: relative;
@@ -282,7 +282,7 @@ body
 {
     margin: 0px 5%;
 }
-.feat1-bg, .feat2-bg , .feat3-bg
+.feat1-bg, .feat2-bg , .feat3-bg, .feat4-bg
 {
     margin: auto;
     position: relative;
@@ -293,10 +293,10 @@ body
     background-position: left;
     z-index: 60;
 }
-/* .feat-item4
+.feat-item4
 {
-    margin-top: 100px;
-} */
+    margin-top: 50px;
+}
 .feat2-bg
 {
     background: url(../images/fib.png);

@@ -178,10 +178,12 @@ body
     display: block;
     margin: 10px auto;
 }
-.parent, .feat-parent
+.feat .feat-parent
 {
     width: 100%;
-    /* background-color: #000; */
+    height: 100%;
+    position: relative;
+    background-color: rgb(191, 0, 0);
 }
 .about .item1, .item2,.item3
 {
@@ -266,16 +268,21 @@ body
     color: #000;
 }
 /* FEAT ITEMS */
-.feat-item1
+.feat-item1, .feat-item2, .feat-item3
 {
-    position: absolute;
+    display: inline-block;
+    position: relative;
     float: left;
     width: 30%;
     height: 350px;
     padding: 20px;
     background: #333;
 }
-.feat1-bg
+.feat-item2
+{
+    margin: 0px 5%;
+}
+.feat1-bg, .feat2-bg , .feat3-bg
 {
     margin: auto;
     position: relative;
@@ -285,6 +292,27 @@ body
     background-size: cover;
     background-position: left;
     z-index: 60;
+}
+/* .feat-item4
+{
+    margin-top: 100px;
+} */
+.feat2-bg
+{
+    background: url(../images/fib.png);
+    background-position: right bottom;
+}
+.feat3-bg
+{
+    background: url(../images/plu.png);
+    background-size: cover;
+    background-position: center;
+}
+.feat4-bg
+{
+    background: url(../images/web.jpeg) ;
+    background-size: cover;
+    background-position: center;
 }
 .feat-item-links
 {
@@ -299,7 +327,7 @@ body
     left: 0;
     transition: .7s;
 }
-.feat-item1:hover .feat-item-links
+.feathov:hover .feat-item-links
 {
     visibility: visible;
     opacity: 1;

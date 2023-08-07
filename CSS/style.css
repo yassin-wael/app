@@ -183,7 +183,7 @@ body
     width: 100%;
     height: 100%;
     position: relative;
-    background-color: rgb(191, 0, 0);
+    /* background-color: rgb(191, 0, 0); */
 }
 .about .item1, .item2,.item3
 {
@@ -268,7 +268,7 @@ body
     color: #000;
 }
 /* FEAT ITEMS */
-.feat-item1, .feat-item2, .feat-item3, .feat-item4
+.feat-item1, .feat-item2, .feat-item3, .feat-item4 ,.feat-item5 , .feat-item6 
 {
     display: inline-block;
     position: relative;
@@ -278,11 +278,11 @@ body
     padding: 20px;
     background: #333;
 }
-.feat-item2
+.feat-item2, .feat-item5
 {
     margin: 0px 5%;
 }
-.feat1-bg, .feat2-bg , .feat3-bg, .feat4-bg
+.feat1-bg, .feat2-bg , .feat3-bg, .feat4-bg , .feat5-bg , .feat6-bg
 {
     margin: auto;
     position: relative;
@@ -293,7 +293,7 @@ body
     background-position: left;
     z-index: 60;
 }
-.feat-item4
+.feat-item4, .feat-item5, .feat-item6
 {
     margin-top: 50px;
 }
@@ -311,6 +311,18 @@ body
 .feat4-bg
 {
     background: url(../images/web.jpeg) ;
+    background-size: cover;
+    background-position: center;
+}
+.feat5-bg
+{
+    background: url(../images/wallhaven-5dpyo9.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+.feat6-bg
+{
+    background: url(../images/wallhaven-6kk75x.png) ;
     background-size: cover;
     background-position: center;
 }

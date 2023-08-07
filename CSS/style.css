@@ -221,6 +221,7 @@ body
     border-radius: 20px;
     padding: 6px 15px;
     margin: 17px auto;
+    transition: .4s;
 }
 .item2
 {
@@ -257,4 +258,9 @@ body
     color: #fff;
     transition:.3s;
     opacity: 1;
+}
+.item a:hover
+{
+    background: #fff;
+    color: #000;
 }

@@ -154,21 +154,21 @@ body
 /* END OF NAV */
 /* START OF BANNER SECTION*/   
  /*START OF ABOUT SECTION  */
-.about, .feat
+.about, .feat , .offers
 {
     text-align: center;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
-    padding: 80px 0px;
+    padding: 80px 0px 20px;
 }
-.about-title, .feat-title
+.about-title, .feat-title, .offers-title
 {
     color: rgb(0, 0, 0);
     font-size: 35px;
     margin: 56px;
 }
-/* making 2 afters */
-.about-title::after, .feat-title::after
+/* making 3 afters */
+.about-title::after, .feat-title::after , .offers-title::after
 {
     content: "";
     width: 100px;
@@ -380,4 +380,35 @@ body
     border-radius: 10px;
     margin: 2px;
     transition: 0.6s;
+}
+/* OFFERS ITEMS */
+.off-item1
+{
+    position: relative;
+    width: 30%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 28px 20px 10 85px;
+    text-align: left;
+}
+.off-icons
+{
+    position: absolute;
+    top: 15%;
+    left: 13%;
+    font-size: 40px;
+}
+.off-content
+{
+    padding: 0px 7px;
+}
+.offers .offers-parent h2
+{
+    margin: 10px 0px 12px;
+    letter-spacing: 1.3px;
+}
+.offers .offers-parent p
+{
+    margin: 0px 0px 15px;
+    color: #444;
 }

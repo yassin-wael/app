@@ -274,9 +274,11 @@ body
     position: relative;
     float: left;
     width: 30%;
-    height: 350px;
+    height: 280px;
     padding: 20px;
     background: #333;
+    border-radius: 15px;
+    overflow: hidden;
 }
 .feat-item2, .feat-item5
 {
@@ -295,7 +297,7 @@ body
 }
 .feat-item4, .feat-item5, .feat-item6
 {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .feat2-bg
 {

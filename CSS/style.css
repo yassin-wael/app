@@ -252,12 +252,11 @@ body
     visibility: visible;
     width: 100%;
     height: 100%;
-    transition: 0.5s;
     border-radius: 15px;
     opacity: 1;
     z-index: -1;
 }
-.item:hover{
+.item:hover, .hovall:hover{
     color: #fff;
     transition:.3s;
     opacity: 1;
@@ -384,12 +383,17 @@ body
 /* OFFERS ITEMS */
 .off-item1
 {
+    color: #000;
     position: relative;
     width: 30%;
     border: 1px solid gray;
     border-radius: 15px;
     padding: 28px 20px 10 85px;
     text-align: left;
+    display: inline-block;
+    float: left;
+    transition: 0.8s;
+    z-index: 1;
 }
 .off-icons
 {
@@ -397,10 +401,6 @@ body
     top: 15%;
     left: 13%;
     font-size: 40px;
-}
-.off-content
-{
-    padding: 0px 7px;
 }
 .offers .offers-parent h2
 {
@@ -410,5 +410,13 @@ body
 .offers .offers-parent p
 {
     margin: 0px 0px 15px;
-    color: #444;
+    color: #999;
+}
+.icc
+{
+    color: #2ea1ff;
+}
+.off-item1:hover
+{
+    color: #fff;
 }

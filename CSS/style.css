@@ -381,19 +381,24 @@ body
     transition: 0.6s;
 }
 /* OFFERS ITEMS */
-.off-item1
+.off-item1,.off-item2,.off-item3,.off-item4,.off-item5,.off-item6
 {
-    color: #000;
-    position: relative;
-    width: 30%;
-    border: 1px solid gray;
-    border-radius: 15px;
-    padding: 28px 20px 10 85px;
-    text-align: left;
-    display: inline-block;
-    float: left;
-    transition: 0.8s;
     z-index: 1;
+    color: #000;
+    width: 30%;
+    float: left;
+    margin-bottom: 20px;
+    transition: 0.8s;
+    text-align: left;
+    position: relative;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 28px 20px 10 85px;
+    border: 1px solid gray;
+}
+.off-item2, .off-item5
+{
+    margin: 0px 5%;
 }
 .off-icons
 {
@@ -416,7 +421,7 @@ body
 {
     color: #2ea1ff;
 }
-.off-item1:hover
+.off-item:hover
 {
     color: #fff;
 }

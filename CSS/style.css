@@ -445,7 +445,7 @@ body
 }
 .off-img
 {
-    margin-top: 5%;
+    margin-top: 100px;
     width: 49%;
     float: right;
 }
@@ -465,4 +465,22 @@ body
     margin-right: 5px;
     font-size: 20px;
     color: #65bdff;
+}
+.bullets{
+    margin: 0px 43%;
+}
+.bullets li {
+    display: inline-block;
+    background: #828282;
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+}
+.bullets .active 
+{
+    background:#2ea1ff;
+}
+li:hover
+{
+    background: #2ea1ff;
 }

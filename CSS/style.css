@@ -429,14 +429,40 @@ body
 {
     color: #fff;
 }
-.mdesc , .desc
+.mdesc, .desc
 {
     color: #828282;
     font-size: 20px;
 }
+.mdesc{
+    margin-bottom: 20px;
+}
+.desclist
+{
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+.off-img
+{
+    margin-top: 5%;
+    width: 49%;
+    float: right;
+}
+.img-right{
+    width: 100%;
+    height: 80%;
+}
 .desc{
     display: block;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 20px;
     margin: 4px;
+    font-weight: 100;
+}
+.check-icon
+{
+    margin-right: 5px;
+    font-size: 20px;
+    color: #65bdff;
 }

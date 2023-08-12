@@ -525,7 +525,7 @@ li:hover
 {
     position: relative;
 }
-.pri-item1
+.pri-item1, .pri-item2, .pri-item3
 {
     float: left;
     position: relative;
@@ -533,6 +533,11 @@ li:hover
     /* background: #2ea1ff; */
     padding: 25px 10px;
     border: 1px solid slategray;
+    border-radius: 20px;
+}
+.pri-item2
+{
+    margin: 0px 5%;
 }
 .pri-circle
 {
@@ -575,6 +580,7 @@ li:hover
     background: rgba(0, 0, 0, 0.450);
     position: absolute;
     transition: 0.5s;
+    border-radius: inherit;
 }
 .pricing-parent  .itemp:hover::after
 {

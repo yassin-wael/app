@@ -133,6 +133,7 @@ body
     padding: 15px 20px;
     border: none;
     border-radius: 26px;
+    transition: .4s;
 }
 .home .home-title-holder .btn-active
 {
@@ -480,7 +481,7 @@ body
 {
     background:#2ea1ff;
 }
-li:hover
+.bullets li:hover
 {
     background: #2ea1ff;
 }
@@ -581,6 +582,16 @@ li:hover
     position: absolute;
     transition: 0.5s;
     border-radius: inherit;
+}
+/* .pricing-parent  .itemp:hover .pri-hov, .pri-1st
+{
+    color: #65bdff;
+    transition: 0.6s;
+} */
+.itemp:hover .pri-hov,
+.itemp:hover .pri-1st {
+  color: #65bdff;
+  transition: 0.6s;
 }
 .pricing-parent  .itemp:hover::after
 {

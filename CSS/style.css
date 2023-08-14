@@ -600,3 +600,49 @@ body
     height: 100%;
     width: 100%;
 }
+.sec7
+{
+    height: 350px;
+    width: 100%;
+    margin: 100px auto;
+    background: url(../images/photo2.jpeg) no-repeat;
+    background-attachment: fixed;
+    background-position: 0px 210px;
+    background-size: cover;
+}
+.sec7-parent
+{
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+.sec7 .sec7-parent .sec7-head1 img
+{
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 50%;
+    float: left;
+    background: #fff;
+}
+.sec7-item-desc
+{
+    padding: 0px 175px 16px;
+    margin: 60px 0px;
+}
+.sec7 .sec7-parent .sec7-head1 .sec7-it1stp
+{
+    color: #2ea1ff;
+    font-weight: 600;
+    line-height: 25px;
+}
+.sec7 .sec7-parent .sec7-head1 .sec7-1dec
+{
+    padding: 1px 20px;
+    font-size: 18.6px;
+}
+.sec7 .sec7-parent .sec7-item1, .sec7-item2
+{
+    width: 49%;
+    float: left;
+    margin: 5% .5%;
+}

@@ -623,10 +623,11 @@ body
     border-radius: 50%;
     float: left;
     background: #fff;
+    margin-left: 5px;
 }
 .sec7-item-desc
 {
-    padding: 0px 175px 16px;
+    /* padding: 0px 175px 16px; */
     margin: 60px 0px;
 }
 .sec7 .sec7-parent .sec7-head1 .sec7-it1stp

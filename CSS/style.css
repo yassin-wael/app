@@ -14,7 +14,7 @@ body
 .container
 {
     width: 80%;
-    background-color: rgb(230, 230, 230);
+    /* background-color: rgb(230, 230, 230); */
     margin: auto;
 }
 .clearfix
@@ -844,8 +844,8 @@ body
 .footer
 {
     position: relative;
-    padding: 5%;
-    height: 40vh;
+    padding: 6%;
+    height: 280px;
     background: #242424;
     text-align: center;
     color: #ddd;
@@ -853,7 +853,7 @@ body
 .footer-logos
 {
     position: absolute;
-    top: 50%;
+    top: 43%;
     left: 50%;
     transform: translate(-50%,-120%);
 }

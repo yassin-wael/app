@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    transition: 0.5s;
 }
 body
 {
@@ -155,21 +156,21 @@ body
 /* END OF NAV */
 /* START OF BANNER SECTION*/   
  /*START OF ABOUT SECTION  */
-.about, .feat , .offers, .pricing-section
+.about, .feat , .offers, .pricing-section,   .teams
 {
     text-align: center;
     /* height: 100vh; */
     width: 100%;
     padding: 80px 0px 20px;
 }
-.about-title, .feat-title, .offers-title, .off-sec2, .pricing-title
+.about-title, .feat-title, .offers-title, .off-sec2, .pricing-title, .teams-title
 {
     color: rgb(0, 0, 0);
     font-size: 35px;
     margin: 56px 0px;
 }
 /* making 3 afters */
-.about-title::after, .feat-title::after , .offers-title::after, .off-sec2-t::after, .pricing-title::after
+.about-title::after, .feat-title::after , .offers-title::after, .off-sec2-t::after, .pricing-title::after, .teams-title::after
 {
     content: "";
     width: 100px;
@@ -272,7 +273,7 @@ body
     color: #000;
 }
 /* FEAT ITEMS */
-.feat-item1, .feat-item2, .feat-item3, .feat-item4 ,.feat-item5 , .feat-item6 
+.feat-item1, .feat-item2, .feat-item3, .feat-item4 ,.feat-item5 , .feat-item6
 {
     display: inline-block;
     position: relative;
@@ -610,10 +611,13 @@ body
     background-position: 0px 210px;
     background-size: cover;
 }
-.sec7-parent
+.sec7-parent , .team-parent
 {
     width: 80%;
     margin: auto;
+}
+.sec7-parent
+{
     color: white;
 }
 .sec7 .sec7-parent .sec7-head1 img
@@ -646,4 +650,124 @@ body
     width: 49%;
     float: left;
     margin: 5% .5%;
+}
+/* ///////////////// teams ///////////// */
+.team-parent
+{
+    width: 70%;
+    overflow: hidden;
+}
+.team-item
+{
+    width: 30%;
+    padding: 2% 3%;
+    border: 1px solid #000;
+    float: left;
+}
+.team-item .overlay-item
+{
+    background: rgba(0, 0, 0, 0.703);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* z-index: 100; */
+    opacity: .5;
+}
+.team1, .team2, .team3
+{
+    background: url(../images/blaise\ agüera.jpg) no-repeat;
+    background-size: 110% 100%;
+    background-position: center center;
+    height: 100%;
+}
+.team-item2
+{
+    margin: 0px 4%;
+}
+.team-item .team-icons i
+{
+    display: block;
+    line-height: 50px;
+    background: #003561;
+    font-size: 25px;
+    width: 45px;
+    visibility: hidden;
+    opacity: 0;
+    margin-bottom: 1.4px;
+    border-radius: 10px;
+}
+.team-item .team-icons a
+{
+    color: #fff;
+}
+.imglinks
+{
+    position: relative;
+    width: 100%;
+    height: 330px;
+    z-index: 69;
+}
+.team-item .team-icons 
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* visibility: hidden;
+    opacity: 0; */
+    transition:0.5s ;
+    z-index: 101;
+}
+.team-item h3
+{
+    font-size: 153%;
+    margin: 30px 0px 20px;
+}
+.team-item p
+{
+    font-size: 110%;
+}
+.team-item h3, .team-item p
+{
+    position: relative;
+    z-index: 69;
+}
+
+/* Team Hover Effect*/
+.team-item:hover .team-icons i,
+.team-item:hover .overlay-item
+{
+    visibility: visible;
+    opacity: 1;
+}
+.team-item:hover h3
+{
+    color: #fff;
+}
+.team-item:hover p
+{
+    color: #4598dd;
+}
+.tth
+{
+    position: relative;
+}
+.tth::after
+{
+    content: "";
+    background: rgba(0, 0, 0, 0.615);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    transition: .5s;
+    z-index: 50;
+}
+.tth:hover::after
+{
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
 }

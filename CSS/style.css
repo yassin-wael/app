@@ -32,8 +32,8 @@ body
 }
 .logo
 {
-    width: 7%;
-    margin: 0px 10%;
+    width: 4%;
+    margin: .5% 10%;
     float: left;
 }
 .nav
@@ -94,11 +94,10 @@ body
     height: 100vh;
     width: 100%;
     color: #fff;
-    background-image: url(../images/wallhaven-nr2p17.jpg);
+    background: url(../images/google.b.jpg) no-repeat;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-position: right;
     background-size: cover;
-    background-position: top;
     z-index: 99;
     text-align: center;
 }
@@ -128,7 +127,7 @@ body
 {
     display: inline-block;
     color: rgb(255, 255, 255);
-    background: #828282;
+    background: #6e3953;
     width: 134px;
     margin: 16px 5px;
     padding: 15px 20px;
@@ -490,8 +489,9 @@ body
 .stats
 {
     height: 350px;
-    background: url(../images/google.b.jpg) no-repeat;
+    background: url(../images/wallhaven-nr2p17.jpg) no-repeat;
     background-attachment: fixed;
+    background-position: center;
     background-size: cover;
 }
 .stat-items
@@ -622,6 +622,7 @@ body
 .sec7 .sec7-parent .sec7-head1 img
 {
     width: 120px;
+    height: 120px;
     border: 1px solid white;
     border-radius: 50%;
     float: left;

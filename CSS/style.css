@@ -363,7 +363,7 @@ body
 }
 .feat-item-links .feat-content p
 {
-    color: #22496a;
+    color: #7dbbf2;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
@@ -399,7 +399,8 @@ body
     text-align: left;
     position: relative;
     border-radius: 15px;
-    display: inline-block;
+    height: 260px;
+    min-height: 240px;
     padding: 28px 20px 10 85px;
     border: 1px solid gray;
 }
@@ -421,7 +422,8 @@ body
 }
 .offers .offers-parent p
 {
-    margin: 0px 0px 20px;
+    /* margin: 0px 0px 20px;
+    padding: 14px 0px; */
     color: #999;
 }
 .icc

@@ -665,6 +665,7 @@ body
 {
     width: 30%;
     padding: 2% 3%;
+    height: 530px;
     border: 1px solid #000;
     float: left;
 }
@@ -684,6 +685,17 @@ body
     background-position: center center;
     height: 100%;
 }
+.team2
+{
+    background: url(../images/jeffdean.jpg) no-repeat;
+    background-size: 118% 100%;
+    background-position: center;
+}
+.team3
+{
+    background: url(../images/MartinWattenberg.jpg) no-repeat;
+    background-size: 117% 101%;
+}
 .team-item2
 {
     margin: 0px 4%;
@@ -692,13 +704,13 @@ body
 {
     display: block;
     line-height: 50px;
-    background: #003561;
-    font-size: 25px;
+    background: #2ea1ff;
+    font-size: 20px;
     width: 45px;
     visibility: hidden;
     opacity: 0;
     margin-bottom: 1.4px;
-    border-radius: 10px;
+    border-radius: 20px 10px;
 }
 .team-item .team-icons a
 {

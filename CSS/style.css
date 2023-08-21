@@ -7,14 +7,9 @@
     text-decoration: none;
     transition: 0.5s;
 }
-body
-{
-    /* background-color: ; */
-}
 .container
 {
     width: 80%;
-    /* background-color: rgb(230, 230, 230); */
     margin: auto;
 }
 .clearfix
@@ -56,7 +51,6 @@ body
     color: #fff;
     text-decoration:none;
     padding: 5px 10px;
-    /* border: 1px solid #fff; */
     border-radius: 12px;
     transition:.4s;
     font-size: 15px;
@@ -160,7 +154,6 @@ body
 .about, .feat , .offers, .pricing-section, .teams, .updates
 {
     text-align: center;
-    /* height: 100vh; */
     width: 100%;
     padding: 50px 0px 0px;
 }
@@ -188,18 +181,16 @@ body
 .feat .feat-parent, .updates-parent
 {
     width: 100%;
-    /* height: 100%; temp disabled */
     position: relative;
-    /* background-color: rgb(191, 0, 0); */
 }
 .about .item1, .item2,.item3
 {
     width: 30%;
+    height: 280px;
     padding: 23px 0px;
     border: 2px solid #323232;
     border-radius: 15px;
     float: left;
-    position: relative;
     overflow: hidden;
     z-index: 94;
 }
@@ -276,7 +267,6 @@ body
 /* FEAT ITEMS */
 .feat-item1, .feat-item2, .feat-item3, .feat-item4 ,.feat-item5 , .feat-item6
 {
-    display: inline-block;
     position: relative;
     float: left;
     width: 30%;
@@ -367,7 +357,7 @@ body
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
-    transition: 0.4s;
+    transition: .5s;
 }
 .feat-item-links .feat-content h4
 {
@@ -422,8 +412,6 @@ body
 }
 .offers .offers-parent p
 {
-    /* margin: 0px 0px 20px;
-    padding: 14px 0px; */
     color: #999;
 }
 .icc
@@ -444,7 +432,6 @@ body
 }
 .desclist
 {
-    display: inline-block;
     width: 50%;
     float: left;
 }
@@ -495,7 +482,7 @@ body
     height: 350px;
     background: url(../images/wallhaven-nr2p17.jpg) no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-size: cover;
 }
 .stat-items
@@ -536,7 +523,6 @@ body
     float: left;
     position: relative;
     width: 30%;
-    /* background: #2ea1ff; */
     padding: 25px 10px;
     border: 1px solid slategray;
     border-radius: 20px;
@@ -588,11 +574,6 @@ body
     transition: 0.5s;
     border-radius: inherit;
 }
-/* .pricing-parent  .itemp:hover .pri-hov, .pri-1st
-{
-    color: #65bdff;
-    transition: 0.6s;
-} */
 .itemp:hover .pri-hov,
 .itemp:hover .pri-1st {
   color: #65bdff;
@@ -635,7 +616,6 @@ body
 }
 .sec7-item-desc
 {
-    /* padding: 0px 175px 16px; */
     margin: 60px 0px;
 }
 .sec7 .sec7-parent .sec7-head1 .sec7-it1stp
@@ -668,6 +648,8 @@ body
     height: 530px;
     border: 1px solid #000;
     float: left;
+    border-radius: 20px;
+    overflow: hidden;
 }
 .team-item .overlay-item
 {
@@ -728,8 +710,6 @@ body
     position: absolute;
     top: 0;
     right: 0;
-    /* visibility: hidden;
-    opacity: 0; */
     transition:0.5s ;
     z-index: 101;
 }
@@ -846,10 +826,12 @@ body
 .updates-item a 
 {
     color: #2ea1ff;
-    padding: 5px 15px;
+    display: block;
+    width: 132px;
+    padding: 5px 24px;  
     border: 1px solid #2ea1ff;
-    line-height: 40px;
     border-radius: 20px;
+    margin: 12px 0;
 }
 .updates-item a:hover
 {

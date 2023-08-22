@@ -6,6 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     transition: 0.5s;
+    scroll-behavior: smooth;
 }
 .container
 {

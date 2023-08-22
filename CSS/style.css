@@ -320,7 +320,7 @@
 }
 .feat6-bg
 {
-    background: url(../images/wallhaven-6kk75x.png) ;
+    background: url(../images/wallhaven-6kk75x.jpg) ;
     background-size: cover;
     background-position: center;
 }
@@ -592,7 +592,6 @@
     height: 350px;
     width: 100%;
     margin: 100px auto;
-    /* background: url(../images/photo2.jpeg) no-repeat;*/
     background: url(../images/gradient-background-2560x1080-11027.jpg) no-repeat; 
     background-attachment: fixed;
     background-size: cover;

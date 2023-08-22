@@ -6,7 +6,6 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     transition: 0.5s;
-    scroll-behavior: smooth;
 }
 .container
 {
@@ -299,7 +298,7 @@
 .feat2-bg
 {
     background: url(../images/fib.png);
-    background-position: right bottom;
+    background-position: right 320px;
 }
 .feat3-bg
 {
@@ -315,7 +314,7 @@
 }
 .feat5-bg
 {
-    background: url(../images/wallhaven-5dpyo9.jpg) ;
+    background: url(../images/laptopcode.jpg) ;
     background-size: cover;
     background-position: center;
 }
@@ -481,7 +480,6 @@
 .stats
 {
     height: 350px;
-    /* background: url(../images/gradient-background-2560x1080-11027.jpg) no-repeat; */
     background: url(../images/photo2.jpeg) no-repeat;
     background-attachment: fixed;
     background-position: top;
@@ -593,7 +591,7 @@
     height: 350px;
     width: 100%;
     margin: 100px auto;
-    background: url(../images/gradient-background-2560x1080-11027.jpg) no-repeat; 
+    background: url(../images/photo-1650473395434-8674d953ef2f.jpeg) no-repeat; 
     background-attachment: fixed;
     background-size: cover;
     background-position: center;

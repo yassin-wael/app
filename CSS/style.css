@@ -480,7 +480,8 @@
 .stats
 {
     height: 350px;
-    background: url(../images/wallhaven-nr2p17.jpg) no-repeat;
+    /* background: url(../images/gradient-background-2560x1080-11027.jpg) no-repeat; */
+    background: url(../images/photo2.jpeg) no-repeat;
     background-attachment: fixed;
     background-position: top;
     background-size: cover;
@@ -591,9 +592,11 @@
     height: 350px;
     width: 100%;
     margin: 100px auto;
-    background: url(../images/photo2.jpeg) no-repeat;
+    /* background: url(../images/photo2.jpeg) no-repeat;*/
+    background: url(../images/gradient-background-2560x1080-11027.jpg) no-repeat; 
     background-attachment: fixed;
-    background-size: 100% 194%;
+    background-size: cover;
+    background-position: center;
 }
 .sec7-parent , .team-parent
 {
